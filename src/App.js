@@ -1,15 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './Navigation';
-import nav from './components/nav';
+import View from './view';
 
 function App() {
-  return (
-    <div>
-      <h1>Jett</h1>
-      <nav/>
-      <Navigation/>
-    </div>
-  );
-}
+    return (
+        <div>
+            <View/>
+        </div>
+    );
+};
 
 export default App;
